@@ -1,5 +1,10 @@
+:root{
+    --main-color:#628ff8;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     background-color: #fff;
     color:#5f5f5f;
 }
@@ -19,7 +24,7 @@ body {
     display:flex;
     flex-direction: column;
     width:80%;
-    border: 2px solid #628ff8; 
+    border: 2px solid var(--main-color, #808080); 
     border-radius: 5%;
 }
 
@@ -31,7 +36,7 @@ body {
     width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%; 
-    background-color: #628ff8;
+    background-color: var(--main-color, #808080);
 }
 
 .imgTitle{
